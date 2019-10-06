@@ -31,8 +31,5 @@ public class ProjectileStick : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update() {
-		if (gameObject.transform.position.y < -200) {
-			Destroy(gameObject);
-		}
 	}
 }
